@@ -29,6 +29,7 @@ try{
   
   var response= await axios.post("http://localhost:5000/Resetpass",{
     email,
+    pass
     
   });
     console.log(response.data)
