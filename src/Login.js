@@ -19,7 +19,6 @@ useEffect(()=>{
 
 
 
-let navigate=useNavigate()
 
 
 
