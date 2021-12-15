@@ -2,10 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Login from "./Login";
 import {
-  BrowserRouter,
+  
   Routes,
   Route,
-  Link
+  
 } from "react-router-dom";
 import Forgetpass from './Forgetpass';
 import Reset from './Reset';
@@ -29,6 +29,8 @@ function App() {
    <Route path="/"  element={<Login/>} />
    <Route path="/Forgetpass" element={<Forgetpass/>}/>
    <Route path="/Reset" element={<Reset/>}/>
+   
+
  </Routes>
 
 
